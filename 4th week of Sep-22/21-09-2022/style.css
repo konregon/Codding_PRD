@@ -9,8 +9,9 @@ body{
     align-items: center;
     justify-content: center;
     background: dodgerblue;
+    text-align: center;
 }
-.container{
+/* .container{
     background: white;
     height: fit-content;
     width: fit-content;
@@ -38,4 +39,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* padding: 5px;
     margin: 5px; */
+
+form{
+    background-color: white;
 }

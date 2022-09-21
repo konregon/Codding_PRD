@@ -9,7 +9,7 @@
     <title>MultiQA-App</title>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="score">
             <p id="score">score: 5</p>
         </div>
@@ -17,13 +17,19 @@
             <p id="questions">what is 5 multiply by 5?</p>
         </div>
         <div class="ansBox">
-            <input type="text">
+            <input id="ansBox" type="text">
         </div>
         <div class="submitBtn">
-            <button type="submit">
+            <button id="submitBtn" type="submit">
                 submit
             </button>
         </div>
-    </div>
+    </div> -->
+    <form class="form" id="form">
+        <h3 class="score" id="score">score : 1</h3>
+        <h1 class="question" id="question">what is 5 multiply by 5?</h1>
+        <input type="text" class="input" id="input" autofocus placeholder="Type your answer" autocomplete="off">
+        <button type="submit" id="submit" class="submit" onclick="submit"> submit </button>
+    </form>
 </body>
 </html>
