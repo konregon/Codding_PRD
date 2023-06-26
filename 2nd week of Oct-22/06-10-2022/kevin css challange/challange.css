@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 5em;
+    padding: 3em;
+    background-color: #234;
+    color: aliceblue;
+}
